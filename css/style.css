@@ -175,7 +175,7 @@ table td {
   color: #27ae60;
 }
 
-.retar {
+.next {
   background: #dcdcff;
   color: #4b4b91;
 }
@@ -183,6 +183,11 @@ table td {
 .non {
   background: #fcdede;
   color: #e84118;
+}
+
+.retar {
+  background: #f1c40f40;
+  color: #f39c12;
 }
 
 .footer {
@@ -193,7 +198,8 @@ table td {
 
 /* Responsive design */
 @media screen and (max-width: 768px) {
-  .info-grid div.hide-on-mobile {
+  .info-grid div.hide-on-mobile,
+  .legend div.hide-on-mobile {
     display: none;
   }
 
