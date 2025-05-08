@@ -226,4 +226,9 @@ table td {
     font-size: 0.8em;
     padding: 3px 6px;
   }
+
+  table th.hide-on-mobile,
+  td.hide-on-mobile {
+    display: none;
+  }
 }
