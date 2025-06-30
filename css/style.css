@@ -196,6 +196,10 @@ table td {
   margin-top: 10px;
 }
 
+.red {
+  color: #c0392b;
+}
+
 /* Responsive design */
 @media screen and (max-width: 768px) {
   .info-grid div.hide-on-mobile,
